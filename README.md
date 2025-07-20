@@ -9,22 +9,16 @@ It coordinates short meetings between students and staff with features like:
 - Group meeting support
 - Offline token generation
 - Real-time reminders and analytics
+- Optional QR code generation for tokens
 
 ## Tech Stack
 - **Backend:** Node.js, Express
-- **Frontend:** React
-- **Database:** (Add your database name here)
+- **Frontend:** Flutter
+- **Database:** MySQL (Primary), SQLite (Offline Support)
+- **Others:** QR code (optional feature)
 
 ## Getting Started
-1. Clone the repository:
-https://github.com/sweetyp18/meetpass.git
-2. Install dependencies for the backend:
-cd backend
-npm install
-3. Install dependencies for the frontend:
-cd ../frontend
-npm install
-4. Run the backend server:
-npm start
-5. Run the frontend:
-npm start
+
+### Clone the repository:
+```bash
+git clone https://github.com/sweetyp18/meetpass.git
